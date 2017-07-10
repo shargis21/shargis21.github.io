@@ -5,7 +5,12 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 70px;
+    font-family: "Droid Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
 .portfolio-item {
@@ -30,13 +35,7 @@ h2 { font-family: 'Droid Sans', arial, sans-serif; }
   color: black;
 }
 
-body {
-    font-family: "Droid Sans", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-}
+
 
 .navbar-inverse .navbar-text {
   color: #23AED3;
