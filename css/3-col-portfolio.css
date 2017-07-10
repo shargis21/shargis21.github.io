@@ -111,3 +111,8 @@ h2 {
   margin: 15px;
   padding: 20px;
 }
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
