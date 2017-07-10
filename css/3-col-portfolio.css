@@ -23,7 +23,7 @@ h2 { font-family: 'Droid Sans', arial, sans-serif; }
 /* navbar */
 
 .navbar-inverse {
-  background-color: transparent;
+  background-color: #fff;
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
