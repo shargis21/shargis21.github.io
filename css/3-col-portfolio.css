@@ -44,3 +44,7 @@ body {
 .navbar-inverse .navbar-nav > li > a {
   color: #23AED3;
 }
+
+.project-info {
+  padding: 20px;
+}
