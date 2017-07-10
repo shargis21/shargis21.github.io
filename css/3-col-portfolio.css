@@ -105,3 +105,9 @@ h2 {
     float: left;
     margin-right: 10px;
 }
+
+.project-role {
+  background-color: #23AED3;
+  margin: 15px;
+  padding: 20px;
+}
