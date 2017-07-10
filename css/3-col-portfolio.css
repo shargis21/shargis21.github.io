@@ -111,3 +111,13 @@ h2 {
   margin: 15px;
   padding: 20px;
 }
+
+#clients {
+    height: 300px; /*your fixed height*/
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+}
+#clients li {
+    display: inline-block; /*necessary*/
+}
