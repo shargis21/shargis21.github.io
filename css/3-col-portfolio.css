@@ -16,8 +16,24 @@ footer {
     margin: 50px 0;
 }
 
-.navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
+h1 { font-family: 'Droid Sans', arial, serif; }
+p { font-family: 'Droid Sans', arial, serif; }
+h2 { font-family: 'Droid Sans', arial, serif; }
+
+/* navbar */
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: black;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #48D1CC;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: black;
+}
