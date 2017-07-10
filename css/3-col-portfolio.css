@@ -22,18 +22,7 @@ h2 { font-family: 'Droid Sans', arial, serif; }
 
 /* navbar */
 
-.navbar-default {
-  background-color: transparent;
-  border-color: transparent;
-}
-.navbar-default .navbar-brand {
-  color: black;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #48D1CC;
-  background-color: transparent;
-}
-.navbar-default .navbar-text {
-  color: black;
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
 }
