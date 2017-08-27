@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
 <!--  Last Published: Sun Aug 27 2017 00:17:37 GMT+0000 (UTC)  -->
-<html data-wf-page="599faa55fcf08500017d1dd7" data-wf-site="599faa55fcf08500017d1dd0">
+<html data-wf-page="599faa55fcf08500017d1dd9" data-wf-site="599faa55fcf08500017d1dd0">
 <head>
   <meta charset="utf-8">
   <title>Shannon Hargis</title>
@@ -23,7 +23,7 @@
   <link href="images/web-icon.jpg" rel="apple-touch-icon">
 </head>
 <body>
-  <div class="hero">
+  <div class="contact-page hero">
     <div class="nav w-nav" data-animation="default" data-collapse="medium" data-duration="400">
       <div class="w-container">
         <a class="logo w-nav-brand" href="#">
@@ -36,16 +36,18 @@
       </div>
     </div>
     <div class="heading-wrapper w-container">
-      <h1 class="main-heading">Design is not just what it looks like and feels like. <em><strong>Design is how it works</strong></em>.</h1><a class="button w-button" href="#work">SEE MY WORK</a></div>
+      <h1 class="main-heading">Reach out! Let's start something together.</h1>
+    </div>
   </div>
-  <div class="section" id="work">
+  <div>
     <div class="w-container">
-      <div class="w-dyn-list">
-        <div class="w-dyn-items w-row">
-          <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"><img class="project-image" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px"></a></div>
+      <div class="form w-form">
+        <form data-name="Email Form" id="email-form" name="email-form"><label class="field" for="name">Name</label><input class="input w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Enter your name" type="text"><label class="field" for="email">Email Address</label><input class="input w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email"><label class="field" for="field">Message</label><textarea class="input text-area w-input" id="field" maxlength="5000" name="field" placeholder="Example Text"></textarea><input class="button submit w-button" data-wait="Please wait..." type="submit" value="Submit"></form>
+        <div class="success w-form-done">
+          <p class="success-message">Thank you! We'll be in touch shortly.</p>
         </div>
-        <div class="w-dyn-empty">
-          <p>No items found.</p>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form</p>
         </div>
       </div>
     </div>
